@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon">
+  </head>
+  <body>
+    <div class="content" id="main">
+      <br>
+      <h1>ENTER YOUR CITY</h1>
+      <br>
+      <input type="text" name="" value="" placeholder="Your City" id="val">
+      <a href="#"><button type="button" name="button" id="search">GET FORECAST</button></a>
+      <br>
+      <br>
+      <h2>CITY</h2>
+       <h2 id="description" style="display:inline;margin:0;"><img src="" alt="" id="iconimg" style="margin-top:20px;"></h2>
+       <img src="" alt="" id="iconimg">
+      <div class="" style="text-align:left; padding-left:15%;">
+        <h3>TEMPERATURE<span style="padding-left:30px;">:&nbsp&nbsp&nbsp <span id="temp">22</span> <span>°C</span></span></h3>
+        <h3>WIND<span style="padding-left:120px;">:&nbsp&nbsp&nbsp <span id="windspeed">2</span><span>&nbspKm/h</span></span></h3>
+        <h3>HUMIDITY<span style="padding-left:80px;">:&nbsp&nbsp&nbsp <span id="humidity">50</span><span>%</span> </span></h3>
+        <h3>PRESSURE<span style="padding-left:67px;">:&nbsp&nbsp&nbsp <span id="pressure">0</span><span>&nbsphPa</span> </span></h3>
+      </div>
+      <br>
+      <br>
+      <a href="#"><button type="button" name="button" id="reset">RESET</button></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

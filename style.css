@@ -1,0 +1,51 @@
+body{
+  background: url("backgound.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: white;
+}
+
+h1{
+  color: green;
+}
+
+input{
+  width: 40%;
+  padding: 4px 8px;
+  font-size: 1rem;
+}
+button{
+  margin-left: 10px;
+  padding: 4px 6px;
+  font-size: 1.1rem;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: blue;
+}
+.content{
+  background-color: black;
+  opacity: .7;
+  z-index: 1;
+  height: 80vh;
+  width: 40%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+  #main{
+    width: 70% !important;
+    height: 50vh;
+  }
+}
