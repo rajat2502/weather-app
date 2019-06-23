@@ -14,7 +14,7 @@ body{
 }
 
 h1{
-  color: green;
+  color: brown;
 }
 
 input{
@@ -26,7 +26,7 @@ button{
   margin-left: 10px;
   padding: 4px 6px;
   font-size: 1.1rem;
-  background-color: green;
+  background-color: brown;
   border: none;
   border-radius: 5px;
 }
@@ -44,8 +44,8 @@ button:hover{
 }
 
 @media only screen and (max-width: 600px){
-  #main{
+  .content{
     width: 70% !important;
-    height: 50vh;
+    height: 50vh !important;
   }
 }
